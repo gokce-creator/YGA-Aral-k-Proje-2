@@ -20,11 +20,11 @@ Aksi halde:
    → "You can front passenger seat"
 ↓
 Bitiş
-
 3. Karşılaşılan Zorluklar ve Çözümler
 🔹 Sorun 1: Kullanıcının Geçersiz Veri Girmesi
 Hata: Kullanıcı harf veya boşluk girdiğinde program hata veriyordu.
 Çözüm: try-except bloğu eklenerek hata kontrolü sağlandı.
+
 
 try:
     passenger_age = int(input("Enter your age please: "))
@@ -34,5 +34,6 @@ except ValueError:
 Hata: Debug işlemi giriş satırında duraklıyor ve ilerlemiyordu.
 
 Çözüm:
+
 "Debug Console" yerine "Terminal" kullanıldı.
 VS Code’un terminal ayarları düzenlendi.
